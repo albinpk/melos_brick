@@ -1,0 +1,11 @@
+# Tweaked for using in a non-monorepo
+
+name: melos_brick
+
+packages:
+  - "../melos"
+
+command:
+  version:
+    # Disabled because it's not a monorepo
+    workspaceChangelog: false
