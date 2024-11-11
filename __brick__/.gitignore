@@ -2,3 +2,9 @@
 .dart_tool/
 .packages
 build/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
