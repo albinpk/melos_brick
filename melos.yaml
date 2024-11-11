@@ -9,3 +9,6 @@ command:
   version:
     # Disabled because it's not a monorepo
     workspaceChangelog: false
+    hooks:
+      # Update the version in brick.yaml
+      preCommit: ./scripts/version.sh
