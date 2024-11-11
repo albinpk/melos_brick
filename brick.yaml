@@ -1,6 +1,8 @@
 name: melos
 description: A brick for creating melos project structure
 
+repository: https://github.com/albinpk/melos_brick
+
 version: 0.0.1+1
 
 environment:
