@@ -1,3 +1,7 @@
+## 0.0.3+2
+
+ - **FIX**: package name for poly repo.
+
 ## 0.0.3+1
 
  - **DOCS**: update `README.md`.

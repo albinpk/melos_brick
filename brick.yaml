@@ -3,7 +3,7 @@ description: A brick for creating melos project structure
 
 repository: https://github.com/albinpk/melos_brick
 
-version: 0.0.3+1
+version: 0.0.3+2
 
 environment:
   mason: ">=0.1.0-dev.60 <0.1.0"
