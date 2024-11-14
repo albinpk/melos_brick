@@ -1,3 +1,7 @@
+## 0.0.3+1
+
+ - **DOCS**: update `README.md`.
+
 ## 0.0.3
 
  - **FEAT**: add support for non-mono repositories.
