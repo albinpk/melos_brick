@@ -6,7 +6,7 @@ packages:
 {{/isMono}}
 {{^isMono}}
 packages:
-  - ../{{name.snakeCase()}}
+  - ./
 
 command:
   version:

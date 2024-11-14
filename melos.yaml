@@ -3,7 +3,7 @@
 name: melos_brick
 
 packages:
-  - "../melos"
+  - ./
 
 command:
   version:
