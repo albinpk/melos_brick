@@ -1,5 +1,15 @@
 name: {{name.pascalCase()}}
-
+{{#isMono}}
 packages:
 {{#packages}}  - {{.}}/*
 {{/packages}}
+{{/isMono}}
+{{^isMono}}
+packages:
+  - ../{{name.snakeCase()}}
+
+command:
+  version:
+    # Disabled because it's not a monorepo
+    workspaceChangelog: false
+{{/isMono}}

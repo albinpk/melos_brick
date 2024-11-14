@@ -18,3 +18,8 @@ vars:
     description: List of packages to include
     prompt: Melos packages to include
     values: ["packages", "apps"]
+  isMono:
+    type: boolean
+    description: Is it a monorepo?
+    prompt: Is it a monorepo?
+    default: true
