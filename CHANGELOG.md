@@ -1,3 +1,7 @@
+## 0.0.4
+
+ - **FEAT**: upgrade mason to `v0.1.1`.
+
 ## 0.0.3+2
 
  - **FIX**: package name for poly repo.
